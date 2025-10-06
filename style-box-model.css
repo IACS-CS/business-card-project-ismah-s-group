@@ -1,12 +1,17 @@
 .card-1 h1 {
   color: rgb(0, 0, 0);
+  font-weight: 900;
   font-family: Georgia;
   font-weight: 180;
   text-shadow: 1cap;
   background-color: rgb(229, 137, 16);
+  background-image: url("Firefly_A\ teenage\ kid\ playing\ basketball\ in\ a\ gym\ with\ a\ team\ 557635.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode:color-burn;
   margin-top: 3;
   height: 1in;
-  text-align: center;
+  text-align: right;
   text-transform: uppercase;
   text-decoration:dashed;
   padding-top: .3in;
@@ -14,7 +19,7 @@
 
 .card-1 p {
 color: black;
-background-color: rgb(229, 137, 16);
+background-color: rgb(219, 89, 13);
 font-family: Impact;
 font-style:unset;
 font-weight: 50;
@@ -23,24 +28,24 @@ margin-top: 3;
 }
 
 .card-1 .phone {
-  color: rgb(255, 166, 0);
+  color: rgb(255, 255, 255);
   font-family: Trebuchet MS;
   text-align: center;
   font-size: 150%;
-  margin-top: 0.1in;
+  margin-top: 0.45in;
 }
 .card-1 .email {
-  color:rgb(248, 197, 139);
+  color:rgb(219, 89, 13);
     font-family: Trebuchet MS;
    text-align: center;
-   font-size: 130%;
+   font-size: 90%;
    margin-top: 0.05in;
 }
 .card-1 .website {
-  color: rgb(221, 137, 73);
+  color: rgb(219, 89, 13);
     font-family: Trebuchet MS;
    text-align: center;
-  font-size: 140%;
+  font-size: 90%;
    margin-top: 0.05in;
 }
 
