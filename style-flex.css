@@ -1,4 +1,12 @@
 /* Style for card-2 (your flexbox example) */
+img{
+  width: 1.3in;
+}
+.card-2 .card-back,
+.card-2 .card-front {
+  background-color: black;
+  border-color: red;
+}
 .card-2 {
 div.flex-container {		 
   display: flex;
@@ -16,5 +24,31 @@ div.flex-container > *:nth-child(3) {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  }
 }
+}
+
+.card-2 .company-name {
+  color: white;
+}
+.card-2 .slogan {
+  color: white;
+}
+.card-2 .info1 {
+  color: white;
+  font-size: small;
+  text-align: left;
+  margin-left: 0.1in;
+  margin-bottom: 0;
+}
+.card-2 .info2 {
+  color: white;
+  font-size: small;
+  text-align: center;
+  margin-bottom: ;
+}
+.card-2 .info3 {
+  color: white;
+  font-size: small;
+  text-align: right;
+}
+
