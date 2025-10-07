@@ -1,8 +1,8 @@
 .card-1 h1 {
   color: rgb(0, 0, 0);
   font-weight: 900;
-  font-family: Georgia;
-  font-weight: 180;
+  font-family:monospace;
+  font-weight: 190;
   text-shadow: 1cap;
   background-color: rgb(229, 137, 16);
   background-image: url("Firefly_A\ teenage\ kid\ playing\ basketball\ in\ a\ gym\ with\ a\ team\ 557635.jpg");
@@ -16,13 +16,16 @@
   text-decoration:dashed;
   padding-top: .3in;
 }
-
+.card-1 .card-back,
+.card-1 .card-front {
+  background-color: black;
+}
 .card-1 p {
 color: black;
 background-color: rgb(219, 89, 13);
-font-family: Impact;
+font-family: monospace;
 font-style:unset;
-font-weight: 50;
+font-weight: 100;
 text-align: right;
 margin-top: 3;
 }

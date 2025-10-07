@@ -1,3 +1,20 @@
 /* Style for card-2 (your flexbox example) */
 .card-2 {
+div.flex-container {		 
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: column; 
+}
+div.flex-container > *:nth-child(2) { 
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  }
+div.flex-container > *:nth-child(3) { 
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  }
 }
