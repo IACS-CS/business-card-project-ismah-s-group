@@ -15,20 +15,22 @@ div.flex-container {
   justify-content: space-between;
   flex-direction: column; 
 }
-div.flex-container > *:nth-child(2) { 
+div.flex-container > .image-container { 
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
+  display: flex;
   }
-div.flex-container > *:nth-child(3) { 
+div.flex-container > .bottom { 
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
 }
-
 .card-2 .company-name {
   color: white;
+  font-size:large;
+  text-align: center;
 }
 .card-2 .slogan {
   color: white;
@@ -38,17 +40,16 @@ div.flex-container > *:nth-child(3) {
   font-size: small;
   text-align: left;
   margin-left: 0.1in;
-  margin-bottom: 0;
 }
 .card-2 .info2 {
   color: white;
   font-size: small;
   text-align: center;
-  margin-bottom: ;
 }
 .card-2 .info3 {
   color: white;
   font-size: small;
   text-align: right;
+  margin-right: 0.1in;
 }
 

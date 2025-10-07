@@ -3,30 +3,38 @@
   <head>
     <title>Hello World</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./template.css" />
     <link rel="stylesheet" href="./style-flex.css" />
     <link rel="stylesheet" href="./style-box-model.css" />
   </head>
   <body>
     <h1>Business Cards</h1>
-    <p class="attribution">By Ismah Sengendo and Jaden Neves</div>
+    <p class="attribution">By Ismah Sengendo and Jaden Neves</p>
 
     <h2>Box Model Card:</h2>
 
     <!-- Change landscape to portrait for a 
      portrait card -->
     <main class="card landscape card-1">
-      <div class="card-front"> 
-        <!-- Front of card here -->  
+      <div class="card-front">
+        <!-- Front of card here -->
         <h1>I$jay <i>Elite</i></h1>
-         <p>Academy Basketball ~ <i><b>"BEYOND THE BURN."</b></i></p>  
+        <p>
+          Academy Basketball ~ <i><b>"BEYOND THE BURN."</b></i>
+        </p>
       </div>
-      
+
       <div class="card-back">
-        <div class="phone"><i>Call us to start your journey:</i> <b>978-676-7676</b></div>
-        <div class="email"><i>Shoot us an email:</i> <b>Isjayelitehoops@gmail.com</b></div>
-        <div class="website"><i>Visit our site:</i> <b>IEHbeyondtherim.com</b></div>
+        <div class="phone">
+          <i>Call us to start your journey:</i> <b>978-676-7676</b>
+        </div>
+        <div class="email">
+          <i>Shoot us an email:</i> <b>Isjayelitehoops@gmail.com</b>
+        </div>
+        <div class="website">
+          <i>Visit our site:</i> <b>IEHbeyondtherim.com</b>
+        </div>
       </div>
     </main>
 
@@ -35,38 +43,42 @@
     <h2>Flex Box Card:</h2>
 
     <main class="card landscape card-2">
-
       <div class="card-front flex-container">
         <!-- Front of card -->
-           <div> <!-- could be any element -->
-    <!-- child 1 content here -->
-    <div class= "company-name">
-      I & J <i>Clipz</i>
-    <div class= "slogan">
-     “Your Style. Our Blades.”   <!-- grandchild 2 content here -->
-    </div>
-  </div>
-  <div> <!-- could be any element -->
-    <!-- child 2 content here -->
-    <div>
-     <img src="Firefly_barbershop logo with blade white and black simple 320681.jpg" alt="a black and white silouette of scissors" /> 
-    </div>
-  </div>
-  <div> <!-- could be any element -->
-    <!-- child 3 content here -->
-    <div class= "info1">
-      538 Borough Rd.  <!-- grandchild 1 content here -->
-    </div>
-    <div class= "info2">
-      978-676-7676  <!-- grandchild 2 content here -->
-    </div>
-    <div class= "info3">
-      I&Jgotubladed.com  <!-- grandchild 3 content here -->
-    </div>
-  </div>
-</div>
-<!-- end generated code -->
+        <!-- could be any element -->
+        <!-- child 1 content here -->
+        <div class="company-name">I & J <i>Clipz</i></div>
+        <div class="slogan">
+          “Your Style. Our Blades.”
+          <!-- grandchild 2 content here -->
+        </div>
+        <!-- child 2 content here -->
+        <div class="image-container">
+          <img
+            src="Firefly_barbershop logo with blade white and black simple 320681.jpg"
+            alt="a black and white silouette of scissors"
+          />
+        </div>
+
+        <div class="bottom">
+          <!-- could be any element -->
+          <!-- child 3 content here -->
+          <div class="info1">
+            538 Borough Rd.
+            <!-- grandchild 1 content here -->
+          </div>
+          <div class="info2">
+            978-676-7676
+            <!-- grandchild 2 content here -->
+          </div>
+          <div class="info3">
+            I&Jgotubladed.com
+            <!-- grandchild 3 content here -->
+          </div>
+        </div>
       </div>
+      <!-- end generated code -->
+
       <div class="card-back">
         <!-- Back of card -->
       </div>
