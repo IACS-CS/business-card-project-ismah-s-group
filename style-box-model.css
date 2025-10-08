@@ -23,11 +23,13 @@
 .card-1 p {
 color: black;
 background-color: rgb(219, 89, 13);
-font-family: monospace;
+font-family: Tahoma;
+font-size: 15px;
 font-style:unset;
-font-weight: 100;
-text-align: right;
+font-weight: 400;
+text-align: center;
 margin-top: 3;
+margin-right: ;
 }
 
 .card-1 .phone {

@@ -60,12 +60,12 @@
 }
 
 .card-front {
-  border: 2px solid rgb(219, 89, 13);
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .card-back {
   transform: rotateY(180deg);
-  border: 2px solid #ef822f;
+  border: 2px solid #ffffff;
 }
 body {
   display: flex;
