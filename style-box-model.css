@@ -9,7 +9,6 @@
   background-size: cover;
   background-position: center;
   background-blend-mode:color-burn;
-  margin-top: 3px;
   height: 1in;
   text-align: right;
   text-transform: uppercase;
@@ -29,7 +28,6 @@ font-style:unset;
 font-weight: 400;
 text-align: center;
 margin-top: 3;
-margin-right: ;
 }
 
 .card-1 .phone {
@@ -41,16 +39,16 @@ margin-right: ;
 }
 .card-1 .email {
   color:rgb(219, 89, 13);
-    font-family: Trebuchet MS;
-   text-align: center;
-   font-size: 90%;
-   margin-top: 0.05in;
+  font-family: Trebuchet MS;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 0.05in;
 }
 .card-1 .website {
   color: rgb(219, 89, 13);
-    font-family: Trebuchet MS;
-   text-align: center;
+  font-family: Trebuchet MS;
+  text-align: center;
   font-size: 90%;
-   margin-top: 0.05in;
+  margin-top: 0.05in;
 }
 
